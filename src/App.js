@@ -51,7 +51,7 @@ function App() {
       setrenderSeven(true)
     } else { setrenderSeven(false) }
 
-    if (angOne === 90 && angTwo !== 90 && angThree !== 90 || angOne !== 90 && angTwo === 90 && angThree !== 90 || angOne !== 90 && angTwo !== 90 && angThree === 90) {
+    if ((angOne === 90 && angTwo !== 90 && angThree !== 90) || (angOne !== 90 && angTwo === 90 && angThree !== 90) || (angOne !== 90 && angTwo !== 90 && angThree === 90)) {
       setrenderEight(true)
 
     } else {
