@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/Users/juanaponte/Desktop/trabajo de diego/my-app/public/bacground.png");
+  background-image: url("../public/bacground.png");
 
 }
 .navrbar{
