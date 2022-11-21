@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  background-image: url("/Users/juanaponte/Desktop/trabajo de diego/my-app/public/bacground.png");
 
-.App-link {
-  color: #61dafb;
 }
+.navrbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8vmin;
+  border-radius: 5vmin;
+  box-shadow: 5px 5px 5px black;
+  background-color:#e8e8e8 ;
+  margin-bottom: 9rem ;
+  
+}
+.trianguloLados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.textTriLado{
+  background-color: #e9e9e9;
+  border-radius: 1vmin;
+  box-shadow: 5px 5px 5px black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+h1{
+  background-color: #e8e8e8;
+  font-weight: 800;
+  padding: 1vmin;
+  border-radius: 3vmin ;
+  margin-bottom: 5rem;
+  box-shadow: 5px 5px 5px black;
+
+}
+img{
+  border-radius: 5vmin;
+  box-shadow: 5px 5px 5px black;
+}
+h2{
+  background-color: #e8e8e8;
+  margin: 1vmin;
+  padding: 2vmin;
+  border-radius: 3vmin ;
+  box-shadow: 5px 5px 5px black;
+
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10vmin ;
 }
